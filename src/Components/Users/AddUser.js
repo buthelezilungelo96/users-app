@@ -13,7 +13,7 @@ const AddUser = (props) => {
     <Card className={classes.input}>
       <div>
         <form onSubmit={AddUserHandler}>
-          <label htmlFor='username'>Username</label>
+          <label htmlFor='username'>Email</label>
           <input type='text' id='username' />
           <label htmlFor='Age'>Age (Years)</label>
           <input type='text' id='number' />
